@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>shoping cart</title>
+</head>
+<body>
+    <section>
+        <div class="title">
+            <p class="total">Shopping Bag Total : <span id="total">0</span><span>$</span></p>
+        </div>
+        <div class="part" id="part 1">
+        <div class="icons">
+            <i class="fa-solid fa-circle-xmark" onclick="remove1()"></i>
+            <i class="fa-solid fa-heart " id="heart1" onclick="heart1()"></i>
+        </div>
+        <img class="image1" src="./NSI/juste avant le bonheur.jpg" alt="">
+        <span class="product-name"><strong>juste avant le bonheur </strong><br> White</span>
+      <div class="btns">
+        <span class="btn" onclick="inc()">+</span>
+        <span class="btn" id="product-qtn">0</span>
+        <span class="btn"  onclick="dec()">-</span>
+     </div>
+            <p class="product-prices"><span id="product1price">0</span> <span>$</span></p>
+     </div>
+        <div class="part" id="part 2">
+            <div class="icons">
+                <i class="fa-solid fa-circle-xmark" onclick="remove2()"></i>
+                <i class="fa-solid fa-heart " id="heart2" onclick="heart2()"></i>
+            </div>
+            <img class="image2" src="./NSI/la machoir de cain.jpg" alt="">
+        <span class="product-name"><strong>la machoir de cain</strong><br> White</span>
+          <div class="btns">
+            <span class="btn" onclick="inc2()">+</span>
+            <span class="btn" id="product-qtn2">0</span>
+            <span class="btn"  onclick="dec2()">-</span>
+        </div>
+                <p class="product-price"><span id="product1price2">0</span> <span>$</span></p>
+        </div>
+            </div>
+            <div class="part" id="part 3">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-xmark" onclick="remove3()"></i>
+                    <i class="fa-solid fa-heart " id="heart3" onclick="heart3()"></i>
+                </div>
+                <img class="image3" src="./NSI/la vie heureuse.jpg" alt="">
+          <span class="product-name"><strong>la vie heureuse</strong><br>Brown</span>
+              <div class="btns">
+                <span class="btn" onclick="inc3()">+</span>
+                <span class="btn" id="product-qtn3">0</span>
+                <span class="btn"  onclick="dec3()">-</span>
+            </div>
+                    <p class="product-price"><span id="product1price3">0</span> <span>$</span></p>
+            </div>
+                </div>
+    </section>
+    
+</body>
+<script src="./script.js"></script>
+</html>

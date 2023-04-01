@@ -1,0 +1,83 @@
+body {
+  background: #5fa5e7;
+}
+section {
+  margin: 10% 17%;
+  background: #FFFFFF;
+  padding: 20px;
+}
+.title {
+  border-bottom: rgba(182, 174, 174, 0.233) solid 2px;
+}
+div#part\ 1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: rgba(182, 174, 174, 0.233) solid 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+i.fa-solid.fa-circle-xmark {
+  margin: 0 20px;
+}
+i.fa-solid.fa-heart {
+  margin: 0 20px;
+}
+img.image1 {
+  width: 100px;
+  height: 100px;
+}
+span.btn {
+  margin: 0 20px;
+  cursor: pointer;
+}
+div#part\ 2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: rgba(182, 174, 174, 0.233) solid 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+i.fa-solid.fa-circle-xmark {
+  margin: 0 20px;
+}
+i.fa-solid.fa-heart {
+  margin: 0 20px;
+}
+img.image2 {
+  width: 100px;
+  height: 100px;
+}
+span.btn {
+  margin: 0 20px;
+  cursor: pointer;
+}
+div#part\ 3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: rgba(182, 174, 174, 0.233) solid 2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+i.fa-solid.fa-circle-xmark {
+  margin: 0 20px;
+}
+i.fa-solid.fa-heart {
+  margin: 0 20px;
+}
+img.image3 {
+  width: 100px;
+  height: 100px;
+}
+span.btn {
+  margin: 0 20px;
+  cursor: pointer;
+}
